@@ -36,7 +36,6 @@ almost_numbers = ['0', '10', '21', '3', '-7', '88', '9']
 numbers = [int(number) for number in almost_numbers]
 print(numbers)
 
-
 # greater than 9 from the numbers (not strings) you just created
 numbers_greater_than_9 = [number for number in numbers if number > 9]
 print(numbers_greater_than_9)

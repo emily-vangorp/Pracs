@@ -1,4 +1,5 @@
 import random
+
 MIN_PICK = 1
 MAX_PICK = 45
 
