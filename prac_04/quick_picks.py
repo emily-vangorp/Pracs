@@ -11,4 +11,6 @@ for i in range(no_of_quick_picks):
         while number in numbers:
             number = random.randint(MIN_PICK, MAX_PICK)
         numbers.append(number)
-    print(sorted(numbers))
+    numbers.sort()
+    print(["{:2}".format(number) for number in numbers])
+    # print(sorted(numbers))
