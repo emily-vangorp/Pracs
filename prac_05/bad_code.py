@@ -2,5 +2,5 @@
 
 name = input("Name: ")
 bday = int(input("DOB: "))
-x = 2018 - bday
+age = 2018 - bday
 print(name + " is " + x + "years old")
