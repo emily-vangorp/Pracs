@@ -14,12 +14,5 @@ while state != "":
     else:
         print("Invalid short state")
     state = input("Enter short state: ").upper()
-
-short_states = []
-long_states = []
-for short_state in STATE_NAMES:
-    short_states.append(short_state)
-for long_state in STATE_NAMES.values():
-    long_states.append(long_state)
-for i in range(len(short_states)):
-    print("{:3} is {}".format(short_states[i], long_states[i]))
+for short_state, long_state in STATE_NAMES.items():
+    print("{:3} is {}".format(short_state, long_state))
