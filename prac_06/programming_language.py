@@ -8,3 +8,4 @@ class ProgrammingLanguage:
     def __str__(self):
         return "{}, {} Typing, Reflection={}, First appeared in {}".format(self.name, self.is_dynamic,
                                                                            self.is_reflection, self.year)
+

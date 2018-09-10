@@ -18,3 +18,4 @@ while guitar.name != "":
     guitars.append(guitar)
 print(guitars)
 
+
