@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/KivyDemos/.idea/KivyDemos.iml" filepath="$USER_HOME$/KivyDemos/.idea/KivyDemos.iml" />
       <module fileurl="file://$USER_HOME$/Downloads/KivyDemos-master/KivyDemos-master/.idea/KivyDemos-master.iml" filepath="$USER_HOME$/Downloads/KivyDemos-master/KivyDemos-master/.idea/KivyDemos-master.iml" />
+      <module fileurl="file://$USER_HOME$/Downloads/Lyrics/.idea/Lyrics.iml" filepath="$USER_HOME$/Downloads/Lyrics/.idea/Lyrics.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Pracs.iml" filepath="$PROJECT_DIR$/.idea/Pracs.iml" />
     </modules>
   </component>
